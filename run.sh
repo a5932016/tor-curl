@@ -17,8 +17,6 @@ do
   echo "Start Thread: $i"
 
   docker run -i --rm tor-curl "$URL" "$COUNT" &
-
-  sleep 1
 done
 
 echo "done"
