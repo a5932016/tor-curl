@@ -39,14 +39,14 @@ docker build -t tor-curl .
 
 Run a single request through Tor:
 ```bash
-./run.sh "https://example.com" 1 1
+./run.sh "https://httpbin.org/ip" 1 1
 ```
 
 ### Multi-threaded Usage
 
 Run multiple concurrent requests:
 ```bash
-./run.sh "https://example.com" 10 5
+./run.sh "https://httpbin.org/ip" 10 5
 ```
 
 ### Parameters
@@ -67,7 +67,7 @@ The `run.sh` script takes three parameters:
 ./run.sh "https://httpbin.org/ip" 5 3
 
 # 10 requests through 1 thread
-./run.sh "https://example.com" 10 1
+./run.sh "https://httpbin.org/ip" 10 1
 ```
 
 ## How It Works
