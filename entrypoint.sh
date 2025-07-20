@@ -18,7 +18,7 @@ for i in $(seq 1 $COUNT)
 do
   echo "Requesr: $i"
 
-  tor &
+  tor > /dev/null &
 
   while ! nc -z 127.0.0.1 9050; do
     echo "wait"
