@@ -19,7 +19,7 @@ A Docker-based tool for making HTTP requests through the Tor network with multi-
 
 1. Clone this repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/a5932016/tor-curl.git
 cd tor-curl
 ```
 
@@ -111,11 +111,24 @@ The tool uses port 9050 for Tor SOCKS proxy. Ensure this port is available.
 
 ## License
 
-[Add your license information here]
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
-## Contributing
+### Apache License 2.0 Summary
 
-[Add contribution guidelines here]
+The Apache License 2.0 is a permissive license that allows you to:
+
+- Use the software for any purpose
+- Modify the software
+- Distribute the software
+- Distribute modified versions
+- Use it commercially
+
+The main requirements are:
+- Include a copy of the license when redistributing
+- State significant changes made to the software
+- Include any existing copyright notices
+
+For the full license text, see [LICENSE](LICENSE) file.
 
 ## Disclaimer
 
